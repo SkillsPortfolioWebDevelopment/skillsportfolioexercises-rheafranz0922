@@ -1,0 +1,42 @@
+body {
+    background-color: #eab1ff;
+    max-width:1000px;
+    padding:1em;
+    font-family:Helvetica,Arial,sans-serif;
+}
+
+div{
+    border:1px solid rgb(0, 0, 0);
+    padding:.5em;
+    margin-bottom:1em;
+    float: right;
+    font-size: 25px 50px;
+    background-color: whitesmoke;
+    overflow: auto;
+}
+
+header {
+    background-color: #ff23e5;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(0, 247, 255);
+    list-style-type: none;
+    text-align: none;
+    padding: 0;
+    margin: 5;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

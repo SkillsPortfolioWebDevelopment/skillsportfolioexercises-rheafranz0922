@@ -1,0 +1,38 @@
+/* Adding a background header palevioletred color for top right corner navigation */
+header {
+    background-color: palevioletred;
+    padding-top: 10px;
+    padding-right: 5px;
+    display:contents;
+    justify-content:space-around;
+    align-items: baseline;
+}
+
+ul{
+    list-style: none; /*My list-style and doing my display background for my ul*/
+    display: flex;
+    padding: 10px;
+    text-align: left;
+}
+
+ul li {
+    margin-right: 15px;
+    padding: 10px;
+    text-align: left;
+}
+
+ul li a {
+    padding: 10px;
+    border-radius: 4px;
+    color:black;
+    background-color: rgba(255, 101, 255, 0.856);
+    border-radius: 25px;
+    list-style: none;
+}
+
+ul li a:hover{
+    background-color: aqua;
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+}

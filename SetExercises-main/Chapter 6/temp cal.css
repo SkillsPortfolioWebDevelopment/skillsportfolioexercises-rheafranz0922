@@ -1,0 +1,32 @@
+body {
+    background-color: #00FFE0;
+    color: black;
+    font-size: 40%;
+    display: contents;
+    justify-self: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    font-size: large;
+    display: flex;
+    color: black;
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.fareheit-value{
+    border-bottom: 2px solid;   
+    padding: 10px; 
+}
+
+p{
+    color:black;
+    font-size: medium;
+    padding: 85;
+}

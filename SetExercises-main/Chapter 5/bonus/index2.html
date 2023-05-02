@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<htmk>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Alan Partridge Soundboard Advance.</title>
+        <link rel="stylesheet" href="style2.css"/>
+    </head>
+    <body>
+        <!--I follow the bonus asessment excercise-->
+        <div class="board">
+            <div class="box"><p>1</p>   <audio class="sound" src="Ah-Ha.mp3"></audio></div>
+            <div class="box"><p>2</p>   <audio class="sound" src="Dan.mp3"></audio></div>
+            <div class="box"><p>3</p>   <audio class="sound" src="Back Of The Net.mp3"></audio></div>
+            <div class="box"><p>4</p>   <audio class="sound" src="Bang Out Of Order.mp3"></audio></div>
+            <div class="box"><p>5</p>   <audio class="sound" src="Jurassic Park.mp3"></audio></div>
+            <div class="box"><p>6</p>   <audio class="sound" src="Smell My Cheese.mp3"></audio></div>
+            <div class="box"><p>7</p>   <audio class="sound" src="Goal.mp3"></audio></div>
+            <div class="box"><p>8</p>   <audio class="sound" src="Kiss my Face.mp3"></audio></div>
+            <div class="box"><p>9</p>   <audio class="sound" src="Hello Partridge.mp3"></audio></div>
+        </div>
+    
+        <div class="textarea">
+
+            <input type="text" id="text-to-speech" placeholder="Enter text to speak"/>
+        </div>
+        
+       
+        <div class="speak">
+            <!--the function(textToAudio) will run when the user clicks the button-->
+            <button onclick="textToAudio()">Speak</button>
+        </div>
+        
+        <script src="script2.js"></script>
+    </body>
+</html>

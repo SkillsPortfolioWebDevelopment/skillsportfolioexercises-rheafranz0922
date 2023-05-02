@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <title>Temperature Calculator</title>
+    <link rel="stylesheet" href="temp cal.css" />
+    <body>
+        <h1>Temperature Calculator</h1>
+        <p>Convert fareheit to celcius</p>
+        <p>
+            <label>Fahrenheit</label>
+            <input id="inputFahrenheit" type="number" placeholder="numbers" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+          </p>
+          <p>Celcius: <span id="outputCelcius"></span></p>
+          
+          <script>
+          function temperatureConverter(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("outputCelcius").innerHTML=(valNum-32)/3.5;
+          }
+          </script>
+          
+          <!DOCTYPE html>
+<html>
+<title>Kelvin to Fahrenheit </title>
+<body>
+
+<h2>Temperature Converter</h2>
+<p>Type a value in the Kelvin field to convert the value to Fahrenheit:</p>
+
+<p>
+  <label>Kelvin</label>
+  <input id="inputKelvin" type="number" placeholder="Kelvin" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p>Fahrenheit: <span id="outputFahrenheit"></span></p>
+
+<script>
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputFahrenheit").innerHTML=((valNum-202.15)*1.8)+32;
+}
+</script>
+
+</body>
+</html>
+
+          </body>
+          </html>
+          
+    </body>
+</html>

@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+    margin:0px;
+    font-size:"arial", 400;
+}
+
+.nav{
+    background: color #17072b;
+    float: center;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 200%;
+    font-family: Arial;
+    text-decoration:none;
+    color:white;
+    padding: 14px 16px;
+
+}
+
+.plan1{
+        float: left;
+        font-family:Arial;
+        width: 33.33%;
+        padding: 10px;
+}
+
+.plan2{
+       background-color: darkblue;
+       color: white;
+       margin-top: 30px;
+       padding: 10px;
+       float: right;
+       font-family: Arial;
+       width: 33.33%;
+}
+
+.header{
+    background-color: #17072b;
+    color:white;
+    font-size: 200%;
+    font-family: tahoma;
+    text-align: center;
+    padding: 20px;
+    text-decoration:underline;
+}
+
+.footer {
+    background-color: #8c15e9;
+    color: white;
+    margin-top: 460px;
+    padding: 5px;
+    font-family: arial;
+    text-align:center;
+}
